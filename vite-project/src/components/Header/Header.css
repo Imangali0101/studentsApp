@@ -1,0 +1,10 @@
+.header {
+    height: 56px;
+    background-color: rgba(248, 249, 255, 0.8);
+    box-shadow: 0 1px 8px rgba(0, 0, 0, 0.04);
+    padding: 0 32px;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
