@@ -31,4 +31,10 @@ body {
 
 button {
   cursor: pointer;
+  border: none;
+}
+
+input{
+  outline: 0;
+  border: none;
 }

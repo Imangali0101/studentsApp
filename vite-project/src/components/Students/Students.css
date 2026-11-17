@@ -1,6 +1,109 @@
-.block{
+.block {
     width: 100px;
     height: 100px;
     background-color: brown;
     color: aliceblue;
+}
+
+.statistic_parent_render {
+    margin-top: 32px;
+}
+
+.students_filters {
+    margin: 24px 0;
+}
+
+.filters_content_parent {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.content_left h3 {
+    font-size: 24px;
+    font-weight: 600;
+}
+
+.content_left p {
+    margin-top: 4px;
+    color: #565E74;
+    font-weight: 400;
+    font-size: 13px;
+}
+
+.content_right {
+    display: flex;
+    gap: 12px;
+}
+
+.search_form {
+    width: 240px;
+    height: 36px;
+    border-radius: 8px;
+    box-shadow: 0 1px 2px rgba(0, 0, 0, 0.05);
+    display: flex;
+    padding-left: 12px;
+    align-items: center;
+    gap: 10.5px;
+    overflow: hidden;
+    background-color: #FFFFFF;
+}
+
+.search_form img {
+    width: 13.5px;
+    height: 18px;
+}
+
+.search_form input {
+    height: 100%;
+    width: 100%;
+    background-color: transparent;
+    color: #0B1C30;
+}
+
+.add_student_parent button {
+    width: 122.11px;
+    height: 36px;
+    border-radius: 8px;
+    color: #FFFFFF;
+    font-size: 12px;
+    font-weight: 500;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 8px;
+    box-shadow: 0 1px 2px rgba(0, 0, 0, 0.05);
+    background-color: #3525CD;
+    font-family: "Geist", sans-serif;
+}
+
+.group_filter_parent {
+    height: 44px;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 0 16px;
+    box-shadow: 0 1px 2px rgba(0, 0, 0, 0.05);
+    border-radius: 8px;
+    background-color: #FFFFFF;
+}
+
+.filterButtons_parent {
+    display: flex;
+    gap: 8px;
+}
+
+.filterButtons_parent button {
+    padding: 4px 12px;
+    font-size: 12px;
+    font-weight: 600;
+    font-family: "Geist", sans-serif;
+    border-radius: 4px;
+    background-color: transparent;
+    color: #565E74;
+}
+
+.filterButtons_parent button.active {
+    background-color: #DAE2FD;
+    color: #3525CD;
 }
